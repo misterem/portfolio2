@@ -37,22 +37,23 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "July 2020",
       endDate: "Aug 2022",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Managed over 400 AD Users and Computers",
+        "In charge of Network Administration and Operation",
+        "Worked with Elbit & Rafael technicians testing new software systems in the field",
+        "Maintained multiple mobile Battle Management command units",
       ],
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
+      name: "Random Walker",
       summary: "A music streaming app that emulates Spotify's core features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
       image: "/spotifu.png",
     },
     {
-      name: "Shopp App",
+      name: "Data Analysis of Emoji Use",
       summary: "An e-commerce platform that replicates Shopify's key features.",
       linkPreview: "/",
       linkSource: "https://github.com/immois/astro-zen",
