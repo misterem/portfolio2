@@ -7,7 +7,7 @@ export const SITE_CONFIG: SiteConfig = {
     "Computer science student at The Hebrew University of Jerusalem with experience in IT and network" +
     " administration",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/max-1-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
@@ -47,24 +47,26 @@ export const SITE_CONTENT: SiteContent = {
   projects: [
     {
       name: "Random Walker",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      summary: "An application in Python that visualizes the mathematical concept of a random walk and a" +
+        " lattice random walk with various features",
+      linkPreview: "https://youtu.be/8Y-_j7cnulA",
+      linkSource: "https://github.com/misterem/RandomWalker",
+      image: "/walker.png",
     },
     {
       name: "Data Analysis of Emoji Use",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      summary: "An extensive analysis of emojis used in tweets and movie reviews online using publicly" +
+        " available datasets",
+      linkPreview: "/emoji.pdf",
+      linkSource: "https://github.com/misterem/Emoji-Data-Project",
+      image: "/emoji-2.png",
     },
   ],
   about: {
     description: `
       Hi, I'm Max. I'm currently pursuing a Bachelor of Science in Computer Science at The Hebrew University of Jerusalem, expecting to graduate in 2027. As a Network Administrator in The IDF, I managed over 400 Active Directory users and computers, ensuring seamless network operations. We frequently collaborated with leading industry technicians from companies like Elbit and Rafael to test innovative systems in the field.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/max-1-big.jpg",
   },
 };
 
