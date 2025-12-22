@@ -59,7 +59,7 @@ export const SITE_CONTENT: SiteContent = {
         " available datasets",
       linkPreview: "/emoji.pdf",
       linkSource: "https://github.com/misterem/Emoji-Data-Project",
-      image: "/emoji-2.png",
+      image: "/emoji-3.png",
     },
   ],
   about: {
