@@ -10,18 +10,26 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@fontsource-variable/gabarito": "^5.1.0",
-    "@fontsource/be-vietnam-pro": "^5.1.0",
-    "@tailwindcss/vite": "^4.1.12",
-    "astro": "^5.14.4",
-    "tailwindcss": "^4.1.12",
-    "typescript": "^5.6.2"
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/netlify": "^6.6.3",
+    "@astrojs/react": "^4.4.2",
+    "@fontsource-variable/gabarito": "^5.2.8",
+    "@fontsource/be-vietnam-pro": "^5.2.8",
+    "@supabase/supabase-js": "^2.89.0",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.6",
+    "react": "^19.2.3",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "prettier": "^3.5.3",
+    "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.11"
+    "prettier-plugin-tailwindcss": "^0.7.2"
   },
   "packageManager": "pnpm@10.18.2"
 }
