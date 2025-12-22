@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Max Moshe Altman",
+  title: "Max Altman",
   author: "Max Moshe Altman",
   description:
     "Computer science student at The Hebrew University of Jerusalem with experience in IT and network" +
@@ -23,7 +23,7 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Max Moshe Altman",
+    name: "Max Altman",
     specialty: "Computer science student",
     summary:
       "Computer science student at The Hebrew University of Jerusalem with experience in IT and network" +
