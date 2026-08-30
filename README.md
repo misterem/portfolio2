@@ -1,35 +1,56 @@
-# AstroZen - Personal Portfolio Website
+# Portfolio V2
 
-AstroZen is a minimalist, accessible and responsive portfolio template for your personal portfolio website. It is built with Astro and TailwindCSS.
+## Description
+My professional portfolio website, designed to showcase my software development projects, technical skills, and professional experience. The site is built for high performance and optimal SEO using a modern static site generation framework.
 
-![zen-og](https://github.com/user-attachments/assets/7a72aaae-6652-4cd0-becc-8e6a3c224993)
+## Technical Stack
+- **Framework**: Astro
+- **Styling**: Tailwind CSS
+- **Components**: React / Astro Components
+- **Deployment**: Netlify
+- **Backend Services**: Supabase (where applicable for data persistence)
 
-> [!NOTE]
-> The information contained in this template, including names, images, and content, is entirely fictitious and is intended solely to give the design a realistic appearance. Any coincidence with real-life people, events, or situations is purely coincidental. It is recommended that you replace this information with your own information.
+## Key Features
+- **Project Showcase**: A curated gallery of technical projects with detailed descriptions and links to source code.
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing experiences.
+- **Performance Optimized**: Leveraging Astro’s "Islands" architecture to minimize JavaScript delivery and maximize load speeds.
+- **Dynamic Content**: Integration with markdown or a headless CMS for efficient project and blog management.
 
-## 🔥 Features
+## Repository Structure
+- `/src/pages/`: Contains the routing logic and page templates.
+- `/src/components/`: Reusable UI components built with Astro and React.
+- `/src/layouts/`: Core page wrappers for consistent branding and structure.
+- `/public/`: Static assets including images, fonts, and documents.
+- `astro.config.mjs`: Project configuration and integration settings.
 
-- [x] Minimalist design. clean and simple
-- [x] Mobile-first responsive layout
-- [x] SEO-friendly and accessible
-- [x] Easy to customize with a single configuration file
+## Getting Started
 
-## ✅ Lighthouse Score
+### Prerequisites
+- Node.js (v18.0.0 or higher)
+- npm or yarn
 
-![performance](https://github.com/user-attachments/assets/4f95e2ca-03f9-4996-9e34-dcd179194c58)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/misterem/portfolio2.git
+   cd portfolio2
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 🚀 Getting Started
-
-Clone this repository to your local machine using Git.
-
-```scheme
-git clone https://github.com/immois/astro-zen.git
-cd astro-zen
+### Development
+To start the local development server:
+```bash
+npm run dev
 ```
 
-| Command        | Action                                       |
-| :------------- | :------------------------------------------- |
-| `pnpm install` | Installs dependencies                        |
-| `pnpm dev`     | Starts local dev server at `localhost:4321`  |
-| `pnpm build`   | Build your production site to `./dist/`      |
-| `pnpm preview` | Preview your build locally, before deploying |
+### Build
+To generate a production-ready static build:
+```bash
+npm run build
+```
+
+## Deployment
+The project is configured for automated deployment via Netlify. Every commit to the `main` branch triggers a new build and deployment cycle.
