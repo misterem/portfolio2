@@ -18,7 +18,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/misterem" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://maxaltman.com/",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -26,8 +26,8 @@ export const SITE_CONTENT: SiteContent = {
     name: "Max Altman",
     specialty: "Computer science student",
     summary:
-      "Computer science student at The Hebrew University of Jerusalem with experience in IT and network" +
-      " administration",
+      "Computer science student at The Hebrew University of Jerusalem with experience in network" +
+      " administration and automations",
     email: "MaxMosheAltman@gmail.com",
   },
   experience: [
@@ -43,11 +43,23 @@ export const SITE_CONTENT: SiteContent = {
         "Maintained multiple mobile Battle Management command units",
       ],
     },
+    {
+      company: "Embody",
+      position: "Automation Developer",
+      startDate: "June 2026",
+      endDate: "Aug 2026",
+      summary: [
+        "A temporary position helping a small business create automations and workflows to decrease manual data input and errors.",
+        "Remodeled the company’s database to help facilitate automatic data input",
+        "Coded several automations connected via webhook to their payment system",
+      ],
+    },
   ],
   projects: [
     {
       name: "Random Walker",
-      summary: "An application in Python that visualizes the mathematical concept of a random walk and a" +
+      summary:
+        "An application in Python that visualizes the mathematical concept of a random walk and a" +
         " lattice random walk with various features",
       linkPreview: "https://youtu.be/8Y-_j7cnulA",
       linkSource: "https://github.com/misterem/RandomWalker",
@@ -55,11 +67,21 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Data Analysis of Emoji Use",
-      summary: "An extensive analysis of emojis used in tweets and movie reviews online using publicly" +
+      summary:
+        "An extensive analysis of emojis used in tweets and movie reviews online using publicly" +
         " available datasets",
       linkPreview: "/emoji.pdf",
       linkSource: "https://github.com/misterem/Emoji-Data-Project",
       image: "/emoji-3.png",
+    },
+    {
+      name: "Income Statement Diagram Generator",
+      summary:
+        "An interactive web-app that allows users to generate Sankey diagrams of a public company's income" +
+        " statement",
+      linkPreview: "https://incomestatement.streamlit.app/",
+      linkSource: "https://github.com/misterem/Sankey",
+      image: "/sankey.png",
     },
   ],
   about: {
