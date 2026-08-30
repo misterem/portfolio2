@@ -18,6 +18,17 @@ const {
 } = SITE_CONFIG;
 
 const ogImgUrl = canonicalURL + socialImage;
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: author,
+  url: canonicalURL,
+  image: ogImgUrl,
+  jobTitle: title,
+  description,
+  sameAs: socialLinks.map((link) => link.href),
+};
 ---
 
 <!doctype html>
@@ -41,6 +52,9 @@ const ogImgUrl = canonicalURL + socialImage;
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={ogImgUrl} />
+
+    <link rel="canonical" href={canonicalURL} />
+    <script type="application/ld+json" is:inline set:html={JSON.stringify(personSchema)} />
   </head>
   <body class="bg-black font-sans">
     <Header siteLogo={siteLogo} navLinks={navLinks} />

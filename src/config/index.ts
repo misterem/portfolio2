@@ -18,7 +18,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Github", href: "https://github.com/misterem" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://maxaltman.com/",
+  canonicalURL: "https://maxaltman.com",
 };
 
 export const SITE_CONTENT: SiteContent = {
